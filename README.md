@@ -3,9 +3,9 @@
 Parse dependencies from a JS string (supports both `require` and `import`)
 
 ```js
-const { getDeps } = require('@exodus/parse-deps')
+const { parseDeps } = require('@exodus/parse-deps')
 
-const deps = getDeps(`
+const deps = parseDeps(`
 import a from 'somewhere'
 
 const b = require('./something')

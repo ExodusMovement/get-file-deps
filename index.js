@@ -20,7 +20,7 @@ const hasDeps = (content, options) => {
   return getImports(content, options).length || getRequires(content, detectiveOpts).length > 0
 }
 
-const getDeps = (content, options) => {
+const parseDeps = (content, options) => {
   const imports = getImports(content, options)
   const requires = getRequires(content, options)
   return {
@@ -31,5 +31,5 @@ const getDeps = (content, options) => {
 
 module.exports = {
   hasDeps,
-  getDeps,
+  parseDeps,
 }
