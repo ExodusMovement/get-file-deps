@@ -1,0 +1,10 @@
+{
+  "name": "@exodus/get-file-deps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "detective": "^5.2.0",
+    "detective-es6": "^2.1.0"
+  }
+}
