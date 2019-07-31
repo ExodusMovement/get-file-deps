@@ -13,5 +13,5 @@ const b = require('./something')
 const c = 'ho'
 `)
 
-console.log(deps) // { imports: [ 'somewhere' ], requires: [ './something' ] }s
+console.log(deps) // { imports: [ 'somewhere' ], requires: [ './something' ] }
 ```
