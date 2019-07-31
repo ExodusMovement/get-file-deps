@@ -23,7 +23,10 @@ const hasDeps = (content, options) => {
 const getDeps = (content, options) => {
   const imports = getImports(content, options)
   const requires = getRequires(content, options)
-  return imports.concat(requires)
+  return {
+    imports,
+    requires,
+  }
 }
 
 module.exports = {
