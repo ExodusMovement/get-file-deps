@@ -17,7 +17,7 @@ const getImports = (content, options = defaults.imports) => _getImports(content,
 const getRequires = (content, options = defaults.requires) => _getRequires(content, options)
 
 const hasDeps = (content, options) => {
-  return getImports(content, options).length || getRequires(content, detectiveOpts).length > 0
+  return getImports(content, options).length || getRequires(content, options).length > 0
 }
 
 const parseDeps = (content, options) => {
