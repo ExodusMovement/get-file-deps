@@ -6,8 +6,6 @@ WARNING: this will not catch dynamic requires/imports, only static ones
 
 # Usage
 
-NOTE: 
-
 
 ```js
 const { parseDeps } = require('@exodus/parse-deps')
