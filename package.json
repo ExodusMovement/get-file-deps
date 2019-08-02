@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint --quiet --ignore-path .gitignore ."
+  },
   "dependencies": {
     "detective": "^5.2.0",
     "detective-es6": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
   }
 }
