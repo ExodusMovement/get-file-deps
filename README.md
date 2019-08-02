@@ -1,6 +1,13 @@
+# @exodus/parse-deps
+
+parse dependencies from a JS string (supports both `require` and `import`)
+
+WARNING: this will not catch dynamic requires/imports, only static ones
+
 # Usage
 
-Parse dependencies from a JS string (supports both `require` and `import`)
+NOTE: 
+
 
 ```js
 const { parseDeps } = require('@exodus/parse-deps')
